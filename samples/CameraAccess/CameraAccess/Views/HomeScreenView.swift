@@ -9,8 +9,8 @@
 //
 // HomeScreenView.swift
 //
-// Welcome screen that guides users through the DAT SDK registration process.
-// This view is displayed when the app is not yet registered.
+// 20XX Vision -- ALL SEEING EYES
+// Welcome screen that guides users through glasses pairing.
 //
 
 import MWDATCore

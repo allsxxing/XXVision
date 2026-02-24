@@ -9,8 +9,8 @@
 //
 // NonStreamView.swift
 //
-// Default screen to show getting started tips after app connection
-// Initiates streaming
+// 20XX Vision -- ALL SEEING EYES
+// Pre-streaming setup screen with device status and start controls.
 //
 
 import MWDATCamera
@@ -57,11 +57,11 @@ struct NonStreamView: View {
             .aspectRatio(contentMode: .fit)
             .frame(width: 120)
 
-          Text("Stream Your Glasses Camera")
+          Text("20XX Vision")
             .font(.system(size: 20, weight: .semibold))
             .foregroundColor(.white)
 
-          Text("Tap the Start streaming button to stream video from your glasses or use the camera button to take a photo from your glasses.")
+          Text("Tap Start streaming to see through your glasses with AI, or use iPhone mode to test.")
             .font(.system(size: 15))
             .multilineTextAlignment(.center)
             .foregroundColor(.white)

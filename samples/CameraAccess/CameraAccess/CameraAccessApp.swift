@@ -9,10 +9,9 @@
 //
 // CameraAccessApp.swift
 //
-// Main entry point for the CameraAccess sample app demonstrating the Meta Wearables DAT SDK.
-// This app shows how to connect to wearable devices (like Ray-Ban Meta smart glasses),
-// stream live video from their cameras, and capture photos. It provides a complete example
-// of DAT SDK integration including device registration, permissions, and media streaming.
+// 20XX Vision -- ALL SEEING EYES
+// Main entry point for the 20XX Vision app (Meta Ray-Ban smart glasses AI assistant).
+// Built on Meta Wearables DAT SDK for device registration, permissions, and media streaming.
 //
 
 import Foundation
@@ -37,7 +36,7 @@ struct CameraAccessApp: App {
       try Wearables.configure()
     } catch {
       #if DEBUG
-      NSLog("[CameraAccess] Failed to configure Wearables SDK: \(error)")
+      NSLog("[20XXVision] Failed to configure Wearables SDK: \(error)")
       #endif
     }
     let wearables = Wearables.shared
